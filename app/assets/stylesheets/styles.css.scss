@@ -1,2 +1,20 @@
+/*Used to change the color of the buttons*/
+$btnPrimaryBackground: green;
+/*used to change the color and highlights of the navbar*/
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+/*used to change the font*/
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
 @import 'bootstrap';
+body {padding-top: 60px}
 @import 'bootstrap-responsive';
+
+.footer {
+	margin-top:50px;
+	color: $grayLight;
+	a { color: $gray;
+	}
+}
