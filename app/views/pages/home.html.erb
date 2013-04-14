@@ -1,4 +1,8 @@
-<div class="hero-unit"
+<% if user_signed_in? %>
+<h1>Welcome to the most awesome site ever!</h1>
+
+<% else %>
+<div class="hero-unit">
 <h1>Welcome to One Month Rails!</h1>
 
 	<p>
@@ -10,3 +14,4 @@
 	</p>
 
 </div>
+<% end %>
